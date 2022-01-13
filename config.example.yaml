@@ -1,0 +1,13 @@
+checkout_device:
+  host: 192.168.1.206
+  port: 4370
+  name: 'CHECKOUT'
+checkin_device:
+  host: 192.168.1.207
+  port: 4370
+  name: 'CHECKIN'
+endpoint: https://joyware.net/api/checkEmployee # don't forget to point this to your application route
+transmission: true
+log:
+  filename: transactions # do not include extension
+  split: true

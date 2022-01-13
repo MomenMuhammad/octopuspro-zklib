@@ -1,0 +1,8 @@
+logs/*
+!logs/.gitkeep
+config.yaml
+transactions-*
+data/*
+data/.gitkeep
+__pycache__
+.idea
